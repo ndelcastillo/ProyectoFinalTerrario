@@ -9,7 +9,7 @@ body {
     background-color: white;
 }
 
-.contenedorPadre {
+.indexContenedorPadre {
     margin: auto;
     padding: 2rem;
     width: 100%;
@@ -148,9 +148,8 @@ body {
 
 //mainIndexSection5
 .indexSection5 {
-    background-color: white;
-
-    margin-top: 2rem;
+    background-color: rgb(213, 239, 213);
+    margin-top: 0rem;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
@@ -176,7 +175,7 @@ body {
 //mainIndexSection6
 .indexSection6 {
     background-color: white;
-    margin-top: 5rem;
+    margin-top: 6rem;
     justify-content: center;
     align-content: center;
     display: flex;
@@ -202,12 +201,11 @@ body {
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-
     grid-area: indexSection7;
 }
 
 .indexSection7APortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -220,7 +218,7 @@ body {
 }
 
 .indexSection7BPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -233,7 +231,7 @@ body {
 }
 
 .indexSection7CPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -246,7 +244,7 @@ body {
 }
 
 .indexSection7DPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -262,7 +260,7 @@ body {
 .indexSection8 {
     background-color: white;
 
-    margin-top: 3rem;
+    margin-top: 2rem;
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
@@ -271,7 +269,7 @@ body {
 }
 
 .indexSection8APortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -284,7 +282,7 @@ body {
 }
 
 .indexSection8BPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -297,7 +295,7 @@ body {
 }
 
 .indexSection8CPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -310,7 +308,7 @@ body {
 }
 
 .indexSection8DPortadaImg {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     border-radius: 50%;
     opacity: .6;
@@ -326,7 +324,7 @@ body {
 .indexFooter {
     background-color: lightgrey;
     padding: 0rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -369,7 +367,7 @@ body {
 
 
 @media screen and (max-width:1024px) {
-    .contenedorPadre {
+    .indexContenedorPadre {
         margin: auto;
         padding: 0rem;
         width: 100%;
@@ -511,8 +509,7 @@ body {
 
     //mainIndexSection5
     .indexSection5 {
-        background-color: white;
-
+        background-color: rgb(213, 239, 213);
         margin-top: 0rem;
         justify-content: space-evenly;
         display: flex;
@@ -744,7 +741,7 @@ body {
 
 
 @media screen and (max-width:576px) {
-    .contenedorPadre {
+    .indexContenedorPadre {
         margin: auto;
         padding: 0rem;
         width: 100%;
@@ -886,8 +883,7 @@ body {
 
     //mainIndexSection5
     .indexSection5 {
-        background-color: white;
-
+        background-color: rgb(213, 239, 213);
         margin-top: 0rem;
         justify-content: space-evenly;
         display: flex;
