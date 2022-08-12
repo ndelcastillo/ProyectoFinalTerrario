@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Body
+body {
+    background-color: white;
+}
+
+
+//loginHeader
+.loginHeader {
+    background-color: rgb(106, 143, 106);
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: terrariosHeader;
+}
+
+.loginHeaderLogoImg {
+    width: 100px;
+    position: relative;
+    left: 5px;
+}
+
+.loginHeaderNavMenu ul {
+    list-style-type: none;
+    display: flex;
+
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        margin-right: 2rem;
+        padding: 1rem;
+        font-size: large;
+        font-family: 'Montserrat';
+
+        &:hover {
+            font-weight: bold;
+            text-decoration: solid;
+        }
+    }
+}
+
+
+//loginFooter
+.loginFooter {
+    background-color: lightgrey;
+    padding: 2rem;
+    margin-top: 0rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: terrariosFooter;
+}
+
+.loginFooter1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.loginFooter1 h2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: small;
+    font-style: italic;
+
+}
+
+.loginFooter1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loginFooter1RedesSociales {
+    display: flex;
+    justify-content: space-between;
+
+    .loginFooter1RedesSocialesIg {
+        width: 50px;
+    }
+
+    .loginFooter1RedesSocialesYt {
+        width: 50px;
+    }
+}
+
+.fakeAncla{
+    text-decoration: underline;
+    color: #0d6efd;
+    background-color: lightgray;
+}
+
+.loginHeaderNav form .btn{
+    width: 100px;
+    height: 50px;
+    font-family: 'Montserrat';
+}
+
+.loginPortada{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.loginPortadaPrincipal{
+    width: 2000px;
+    height: 1300px;
+    padding: 5rem;
+}

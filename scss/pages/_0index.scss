@@ -49,8 +49,10 @@ body {
 .indexHeaderNavMenu ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
+    
 
-    li a {
+    .nav-item a {
         color: white;
         text-decoration: none;
         margin-right: 2rem;
@@ -64,6 +66,7 @@ body {
         }
     }
 }
+
 
 
 //mainIndexSection0
@@ -148,7 +151,7 @@ body {
 
 //mainIndexSection5
 .indexSection5 {
-    background-color: rgb(213, 239, 213);
+    background-color: whitesmoke;
     margin-top: 0rem;
     justify-content: space-evenly;
     display: flex;
@@ -509,7 +512,7 @@ body {
 
     //mainIndexSection5
     .indexSection5 {
-        background-color: rgb(213, 239, 213);
+        background-color: whitesmoke;
         margin-top: 0rem;
         justify-content: space-evenly;
         display: flex;
@@ -883,7 +886,7 @@ body {
 
     //mainIndexSection5
     .indexSection5 {
-        background-color: rgb(213, 239, 213);
+        background-color: whitesmoke;
         margin-top: 0rem;
         justify-content: space-evenly;
         display: flex;

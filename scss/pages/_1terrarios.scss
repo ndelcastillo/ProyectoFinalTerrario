@@ -9,6 +9,7 @@ body {
     background-color: white;
 }
 
+/*
 /////terrarios1
 .terrariosContenedorPadre {
     margin: auto;
@@ -24,6 +25,8 @@ body {
         "terrariosSection4 terrariosSection5 terrariosSection6"
         "terrariosFooter terrariosFooter terrariosFooter";
 }
+*/
+
 
 //terrariosHeader
 .terrariosHeader {
@@ -44,14 +47,16 @@ body {
 .terrariosHeaderNavMenu ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
 
-    li a {
+    .nav-item a {
         color: white;
         text-decoration: none;
         margin-right: 2rem;
         padding: 1rem;
         font-size: large;
         font-family: 'Montserrat';
+        
 
         &:hover {
             font-weight: bold;
@@ -60,6 +65,7 @@ body {
     }
 }
 
+/*
 //terrariosSection1
 .terrariosSection1 {
     background-color: white;
@@ -98,9 +104,6 @@ body {
         }
     }
 }
-
-
-
 
 //terrariosSection2
 .terrariosSection2 {
@@ -219,16 +222,18 @@ body {
         }
     }
 }
-
+*/
 
 //terrariosFooter
 .terrariosFooter {
     background-color: lightgrey;
-    padding: 0rem;
-    margin-top: 0rem;
+    padding: 2rem;
+    margin-top: 2rem;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 220px;
     grid-area: terrariosFooter;
 }
 
@@ -284,7 +289,7 @@ body {
     position: fixed;
     background-color: transparent;
     width: 100%;
-    height: 100vh;
+    height: auto;
     visibility: hidden;
     transition: opacity 0.3s ease;
     border-radius: 10px;
@@ -292,16 +297,42 @@ body {
 }
 
 // hacer visible el modal
-.modal-active{
+.modal-active {
     opacity: 1;
     visibility: visible;
     z-index: 5;
 }
 
-.modal-carrito{
+.modal-carrito {
     width: 30rem;
-    height: 10rem;
+    height: auto;
     background-color: whitesmoke;
+    padding: 2rem;
+
+    .modal-carrito-title {
+        text-align: left;
+        padding-bottom: 20px;
+        font-family: 'Montserrat';
+    }
+
+    .modal-carrito-cerrar {
+        padding-top: 20px;
+
+        #cerrar {
+            padding: 5px;
+            font-size: small;
+            border-width: 0.5px;
+            background-color: whitesmoke;
+            border-radius: 8%;
+            font-family: 'Montserrat';
+        }
+    }
+
+    #carrito-contenedor {
+        text-align: justify;
+        color: black;
+        font-family: 'Montserrat';
+    }
 }
 
 .productoEnCarrito {
@@ -314,9 +345,87 @@ body {
     justify-content: space-between;
 }
 
-.boton-eliminar{
+.boton-eliminar {
     background-color: white;
     color: lightblue;
     border: none;
     font-size: 20px;
+}
+
+
+// Card
+.card {
+    width: 27rem;
+    border-width: 1.5px;
+    border-color: lightgray;
+    box-shadow: grey 0px 0px 10px 0px;
+    text-align: center;
+
+
+    .card-img-top {
+        padding: 20px 20px 0px 20px;
+        border-radius: 0%;
+    }
+
+    .card-body {
+        background-color: whitesmoke;
+        padding: 0px 20px 20px 20px;
+        margin: 0px 20px 20px 20px;
+        width: 388px;
+
+
+
+        .card-title {
+            text-align: left;
+            padding: 40px 0px 10px 40px;
+            font-family: 'Montserrat';
+            font-weight: 300;
+            font-size: x-large;
+
+        }
+
+        .card-text {
+
+
+            .card-text-tipo {
+                text-align: left;
+                padding: 20px 0px 6px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+            .card-text-plantas {
+                text-align: left;
+                padding: 0px 0px 6px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+            .card-text-precio {
+                text-align: left;
+                padding: 0px 0px 40px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+        }
+
+        .btn-card {
+            text-align: left;
+            padding: 0px 0px 20px 40px;
+
+            .btn {
+                background-color: lightgray;
+                color: black;
+                font-family: 'Montserrat';
+                font-weight: 500;
+            }
+        }
+    }
 }

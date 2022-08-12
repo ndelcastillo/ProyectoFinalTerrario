@@ -65,15 +65,16 @@ body {
 
 .indexHeaderNavMenu ul {
   list-style-type: none;
-  display: flex; }
-  .indexHeaderNavMenu ul li a {
+  display: flex;
+  align-items: center; }
+  .indexHeaderNavMenu ul .nav-item a {
     color: white;
     text-decoration: none;
     margin-right: 2rem;
     padding: 1rem;
     font-size: large;
     font-family: 'Montserrat'; }
-    .indexHeaderNavMenu ul li a:hover {
+    .indexHeaderNavMenu ul .nav-item a:hover {
       font-weight: bold;
       text-decoration: solid; }
 
@@ -141,7 +142,7 @@ body {
   letter-spacing: 0.5rem; }
 
 .indexSection5 {
-  background-color: #d5efd5;
+  background-color: whitesmoke;
   margin-top: 0rem;
   justify-content: space-evenly;
   display: flex;
@@ -405,7 +406,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.5rem; }
   .indexSection5 {
-    background-color: #d5efd5;
+    background-color: whitesmoke;
     margin-top: 0rem;
     justify-content: space-evenly;
     display: flex;
@@ -650,7 +651,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.5rem; }
   .indexSection5 {
-    background-color: #d5efd5;
+    background-color: whitesmoke;
     margin-top: 0rem;
     justify-content: space-evenly;
     display: flex;
@@ -811,16 +812,23 @@ body {
 body {
   background-color: white; }
 
+/*
+/////terrarios1
 .terrariosContenedorPadre {
-  margin: auto;
-  padding: 0rem;
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-template-rows: auto 1fr 1fr 12vh;
-  grid-template-areas: "terrariosHeader terrariosHeader terrariosHeader" "terrariosSection1 terrariosSection2 terrariosSection3" "terrariosSection4 terrariosSection5 terrariosSection6" "terrariosFooter terrariosFooter terrariosFooter"; }
-
+    margin: auto;
+    padding: 0rem;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: auto 1fr 1fr 12vh;
+    grid-template-areas:
+        "terrariosHeader terrariosHeader terrariosHeader"
+        "terrariosSection1 terrariosSection2 terrariosSection3"
+        "terrariosSection4 terrariosSection5 terrariosSection6"
+        "terrariosFooter terrariosFooter terrariosFooter";
+}
+*/
 .terrariosHeader {
   background-color: #6a8f6a;
   padding: 1.2rem;
@@ -836,122 +844,186 @@ body {
 
 .terrariosHeaderNavMenu ul {
   list-style-type: none;
-  display: flex; }
-  .terrariosHeaderNavMenu ul li a {
+  display: flex;
+  align-items: center; }
+  .terrariosHeaderNavMenu ul .nav-item a {
     color: white;
     text-decoration: none;
     margin-right: 2rem;
     padding: 1rem;
     font-size: large;
     font-family: 'Montserrat'; }
-    .terrariosHeaderNavMenu ul li a:hover {
+    .terrariosHeaderNavMenu ul .nav-item a:hover {
       font-weight: bold;
       text-decoration: solid; }
 
+/*
+//terrariosSection1
 .terrariosSection1 {
-  background-color: white;
-  margin: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: terrariosSection1; }
-  .terrariosSection1 .card {
-    width: 30rem;
-    border-width: 1.5px;
-    border-color: lightgray;
-    box-shadow: black 0px 5px 25px 0px; }
-    .terrariosSection1 .card .card-img-top {
-      padding: 2rem;
-      border-radius: 5%; }
-    .terrariosSection1 .card .card-body {
-      text-align: center; }
-      .terrariosSection1 .card .card-body .card-title {
-        font-family: 'Montserrat'; }
-      .terrariosSection1 .card .card-body .card-text {
-        font-family: 'Montserrat'; }
-      .terrariosSection1 .card .card-body .btn {
-        font-family: 'Montserrat'; }
+    background-color: white;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection1;
 
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection2
 .terrariosSection2 {
-  background-color: white;
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: terrariosSection2; }
-  .terrariosSection2 .card {
-    width: 30rem;
-    border-width: 1.5px;
-    border-color: lightgray;
-    box-shadow: black 0px 5px 25px 0px; }
-    .terrariosSection2 .card .card-img-top {
-      padding: 2rem;
-      border-radius: 5%; }
-    .terrariosSection2 .card .card-body {
-      text-align: center; }
-      .terrariosSection2 .card .card-body .card-title {
-        font-family: 'Montserrat'; }
-      .terrariosSection2 .card .card-body .card-text {
-        font-family: 'Montserrat'; }
-      .terrariosSection2 .card .card-body .btn {
-        font-family: 'Montserrat'; }
+    background-color: white;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection2;
 
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection3
 .terrariosSection3 {
-  background-color: white;
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: terrariosSection3; }
-  .terrariosSection3 .card {
-    width: 30rem;
-    border-width: 1.5px;
-    border-color: lightgray;
-    box-shadow: black 0px 5px 25px 0px; }
-    .terrariosSection3 .card .card-img-top {
-      padding: 2rem;
-      border-radius: 5%; }
-    .terrariosSection3 .card .card-body {
-      text-align: center; }
-      .terrariosSection3 .card .card-body .card-title {
-        font-family: 'Montserrat'; }
-      .terrariosSection3 .card .card-body .card-text {
-        font-family: 'Montserrat'; }
-      .terrariosSection3 .card .card-body .btn {
-        font-family: 'Montserrat'; }
+    background-color: white;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection3;
 
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection4
 .terrariosSection4 {
-  background-color: white;
-  margin-top: 0rem;
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: terrariosSection4; }
-  .terrariosSection4 .card {
-    width: 30rem;
-    border-width: 1.5px;
-    border-color: lightgray;
-    box-shadow: black 0px 5px 25px 0px; }
-    .terrariosSection4 .card .card-img-top {
-      padding: 2rem;
-      border-radius: 5%; }
-    .terrariosSection4 .card .card-body {
-      text-align: center; }
-      .terrariosSection4 .card .card-body .card-title {
-        font-family: 'Montserrat'; }
-      .terrariosSection4 .card .card-body .card-text {
-        font-family: 'Montserrat'; }
-      .terrariosSection4 .card .card-body .btn {
-        font-family: 'Montserrat'; }
+    background-color: white;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection4;
 
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+*/
 .terrariosFooter {
   background-color: lightgrey;
-  padding: 0rem;
-  margin-top: 0rem;
+  padding: 2rem;
+  margin-top: 2rem;
   justify-content: center;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 220px;
   grid-area: terrariosFooter; }
 
 .terrariosFooter1 {
@@ -993,7 +1065,7 @@ body {
   position: fixed;
   background-color: transparent;
   width: 100%;
-  height: 100vh;
+  height: auto;
   visibility: hidden;
   transition: opacity 0.3s ease;
   border-radius: 10px;
@@ -1006,8 +1078,26 @@ body {
 
 .modal-carrito {
   width: 30rem;
-  height: 10rem;
-  background-color: whitesmoke; }
+  height: auto;
+  background-color: whitesmoke;
+  padding: 2rem; }
+  .modal-carrito .modal-carrito-title {
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'Montserrat'; }
+  .modal-carrito .modal-carrito-cerrar {
+    padding-top: 20px; }
+    .modal-carrito .modal-carrito-cerrar #cerrar {
+      padding: 5px;
+      font-size: small;
+      border-width: 0.5px;
+      background-color: whitesmoke;
+      border-radius: 8%;
+      font-family: 'Montserrat'; }
+  .modal-carrito #carrito-contenedor {
+    text-align: justify;
+    color: black;
+    font-family: 'Montserrat'; }
 
 .productoEnCarrito {
   border-left: 5px solid lightblue;
@@ -1023,5 +1113,143 @@ body {
   color: lightblue;
   border: none;
   font-size: 20px; }
+
+.card {
+  width: 27rem;
+  border-width: 1.5px;
+  border-color: lightgray;
+  box-shadow: grey 0px 0px 10px 0px;
+  text-align: center; }
+  .card .card-img-top {
+    padding: 20px 20px 0px 20px;
+    border-radius: 0%; }
+  .card .card-body {
+    background-color: whitesmoke;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    width: 388px; }
+    .card .card-body .card-title {
+      text-align: left;
+      padding: 40px 0px 10px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      font-size: x-large; }
+    .card .card-body .card-text .card-text-tipo {
+      text-align: left;
+      padding: 20px 0px 6px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .card .card-body .card-text .card-text-plantas {
+      text-align: left;
+      padding: 0px 0px 6px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .card .card-body .card-text .card-text-precio {
+      text-align: left;
+      padding: 0px 0px 40px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .card .card-body .btn-card {
+      text-align: left;
+      padding: 0px 0px 20px 40px; }
+      .card .card-body .btn-card .btn {
+        background-color: lightgray;
+        color: black;
+        font-family: 'Montserrat';
+        font-weight: 500; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+.loginHeader {
+  background-color: #6a8f6a;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: terrariosHeader; }
+
+.loginHeaderLogoImg {
+  width: 100px;
+  position: relative;
+  left: 5px; }
+
+.loginHeaderNavMenu ul {
+  list-style-type: none;
+  display: flex; }
+  .loginHeaderNavMenu ul .nav-item a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Montserrat'; }
+    .loginHeaderNavMenu ul .nav-item a:hover {
+      font-weight: bold;
+      text-decoration: solid; }
+
+.loginFooter {
+  background-color: lightgrey;
+  padding: 2rem;
+  margin-top: 0rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  grid-area: terrariosFooter; }
+
+.loginFooter1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.loginFooter1 h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: small;
+  font-style: italic; }
+
+.loginFooter1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.loginFooter1RedesSociales {
+  display: flex;
+  justify-content: space-between; }
+  .loginFooter1RedesSociales .loginFooter1RedesSocialesIg {
+    width: 50px; }
+  .loginFooter1RedesSociales .loginFooter1RedesSocialesYt {
+    width: 50px; }
+
+.fakeAncla {
+  text-decoration: underline;
+  color: #0d6efd;
+  background-color: lightgray; }
+
+.loginHeaderNav form .btn {
+  width: 100px;
+  height: 50px;
+  font-family: 'Montserrat'; }
+
+.loginPortada {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center; }
+
+.loginPortadaPrincipal {
+  width: 2000px;
+  height: 1300px;
+  padding: 5rem; }
 
 /*VENDORS*/
