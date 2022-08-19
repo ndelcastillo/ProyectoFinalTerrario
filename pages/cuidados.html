@@ -6,22 +6,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/def177904b.js" crossorigin="anonymous"></script>
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
     <title>ENTE</title>
 </head>
 
 <body>
-    <header>
+    <div class="cuidadosContenedorPadre">
+        <header class="cuidadosHeader">
+            <article class="cuidadosHeaderLogo">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo/logoEnte3.png"
+                        class="cuidadosHeaderLogoImg" alt="logo"></a>
+            </article>
+            <article class="cuidadosHeaderNav">
+                <nav class="cuidadosHeaderNavMenu">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./terrarios.html">Terrarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./login.html">
+                                <button class="nav-link text-body" href="./login.html">
+                                    <i class="fa-solid fa-user"></i>
+                                </button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-body" id="open" href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span id="contador-carrito">0</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </article>
+        </header>
+        <main class="cuidadosSection0">
+            <div class="cuidadosSection0Titulo">
+                <h1>CUIDADOS</h1>
+            </div>
+        </main>
+        <main class="cuidadosSection1">
+            <div class="card">
+                <img src="../images/cuidados/cuidadoRiego.png" class="card-img-top" alt="...">
+                <div class="cardText">
+                    <h5 class="card-title">RIEGO</h5>
+                    <a href="#" class="btn btnCard1" id="cuidadosBoton1">Informacion</a>
+                </div>
+            </div>
+        </main>
+        <main class="cuidadosSection2">
+            <div class="card">
+                <img src="../images/cuidados/cuidadoLuz1.png" class="card-img-top" alt="...">
+                <div class="cardText">
+                    <h5 class="card-title">ILUMINACION</h5>
+                    <a href="#" class="btn btnCard2" id="cuidadosBoton2">Informacion</a>
+                </div>
+            </div>
+        </main>
+        <main class="cuidadosSection3">
+            <div class="card">
+                <img src="../images/cuidados/cuidadoLimpieza.png" class="card-img-top" alt="...">
+                <div class="cardText">
+                    <h5 class="card-title">LIMPIEZA</h5>
+                    <a href="#" class="btn btnCard3" id="cuidadosBoton3">Informacion</a>
+                </div>
+            </div>
+        </main>
+        <main class="cuidadosSection4">
+            <div class="card">
+                <img src="../images/cuidados/cuidadoAlimento.png" class="card-img-top" alt="...">
+                <div class="cardText">
+                    <h5 class="card-title">ALIMENTO</h5>
+                    <a href="#" class="btn btnCard4" id="cuidadosBoton4">Informacion</a>
+                </div>
+            </div>
+        </main>
 
-    </header>
+        <footer class="cuidadosFooter">
+            <article class="cuidadosFooter1">
+                <h2>Copyright 2022®</h2>
+                <div class="cuidadosFooter1RedesSociales">
+                    <a href="https://www.instagram.com/sequence.arg/" target="_blank"><img
+                            class="cuidadosFooter1RedesSocialesIg"
+                            src="../images/iconosRedesSociales/icono-ig-black.png" alt="imgLogoInstagram"></a>
+                    <a href="https://www.youtube.com/channel/UCZFh7WynMEYRH-nY2fPMnWA/videos" target="_blank"><img
+                            class="cuidadosFooter1RedesSocialesYt"
+                            src="../images/iconosRedesSociales/icono-yt-black.png" alt="imgLogoYouTube"></a>
+                </div>
+                <h2>hola@ente.com</h2>
+            </article>
+        </footer>
 
-    <main>
-        <h1>ENTE</h1>
-    </main>
+    </div>
 
-    <footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Luxon -->
 
-    </footer>
+    <!-- Scripts (el ultimo script siempre debe ser el nuestro) -->
+    <script src="../js/libreriasCuidados.js"></script>
+
 </body>
 
 </html>

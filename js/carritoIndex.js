@@ -32,3 +32,4 @@ const carritoIndex = (productoId) => {
 // Hago innerHTML a nuestro div (nodo hijo) que le vamos a estar pusheando a nuestro nodo padre (contendorCarrito)
 // Si existe el producto dentro del carrito que no renderice sino que agregue un cantidad
 // Agrego el nodo hijo al nodo padre
+

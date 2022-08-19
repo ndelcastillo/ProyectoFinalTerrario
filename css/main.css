@@ -1022,8 +1022,6 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 220px;
   grid-area: terrariosFooter; }
 
 .terrariosFooter1 {
@@ -1160,6 +1158,462 @@ body {
         color: black;
         font-family: 'Montserrat';
         font-weight: 500; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+.cuidadosContenedorPadre {
+  margin: auto;
+  padding: 0rem;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 2fr 2fr 2fr 12vh;
+  grid-template-areas: "cuidadosHeader cuidadosHeader" "cuidadosSection0 cuidadosSection0" "cuidadosSection1 cuidadosSection2" "cuidadosSection3 cuidadosSection4" "cuidadosFooter cuidadosFooter"; }
+
+.cuidadosHeader {
+  background-color: #6a8f6a;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: cuidadosHeader; }
+
+.cuidadosHeaderLogoImg {
+  width: 100px;
+  position: relative;
+  left: 5px; }
+
+.cuidadosHeaderNavMenu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center; }
+  .cuidadosHeaderNavMenu ul .nav-item a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Montserrat'; }
+    .cuidadosHeaderNavMenu ul .nav-item a:hover {
+      font-weight: bold;
+      text-decoration: solid; }
+
+.cuidadosSection0 {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  grid-area: cuidadosSection0; }
+  .cuidadosSection0 .cuidadosSection0Titulo {
+    padding: 3rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    border: 10px; }
+    .cuidadosSection0 .cuidadosSection0Titulo h1 {
+      color: #6a8f6a;
+      text-align: center;
+      font-size: 5rem;
+      font-family: 'Montserrat';
+      font-weight: 600;
+      letter-spacing: 0.5rem; }
+
+.cuidadosSection1 {
+  background-color: white;
+  margin: 3rem;
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: cuidadosSection1; }
+  .cuidadosSection1 .card {
+    width: 45rem;
+    height: 56rem; }
+    .cuidadosSection1 .card .card-img-top {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      border-radius: 0%; }
+    .cuidadosSection1 .card .cardText {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+      .cuidadosSection1 .card .cardText .card-title {
+        color: grey;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Montserrat';
+        font-weight: 400; }
+      .cuidadosSection1 .card .cardText .btnCard1 {
+        margin-top: 0.5rem;
+        background-color: lightgrey; }
+
+.cuidadosSection2 {
+  background-color: white;
+  margin: 3rem;
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: cuidadosSection2; }
+  .cuidadosSection2 .card {
+    width: 45rem;
+    height: 56rem; }
+    .cuidadosSection2 .card .card-img-top {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      border-radius: 0%; }
+    .cuidadosSection2 .card .cardText {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+      .cuidadosSection2 .card .cardText .card-title {
+        color: grey;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Montserrat';
+        font-weight: 400; }
+      .cuidadosSection2 .card .cardText .btnCard2 {
+        margin-top: 0.5rem;
+        background-color: lightgrey; }
+
+.cuidadosSection3 {
+  background-color: white;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: cuidadosSection3; }
+  .cuidadosSection3 .card {
+    width: 45rem;
+    height: 56rem; }
+    .cuidadosSection3 .card .card-img-top {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      border-radius: 0%; }
+    .cuidadosSection3 .card .cardText {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+      .cuidadosSection3 .card .cardText .card-title {
+        color: grey;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Montserrat';
+        font-weight: 400; }
+      .cuidadosSection3 .card .cardText .btnCard3 {
+        margin-top: 0.5rem;
+        background-color: lightgrey; }
+
+.cuidadosSection4 {
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: cuidadosSection4; }
+  .cuidadosSection4 .card {
+    width: 45rem;
+    height: 56rem; }
+    .cuidadosSection4 .card .card-img-top {
+      padding: 0rem;
+      padding-bottom: 1rem;
+      border-radius: 0%; }
+    .cuidadosSection4 .card .cardText {
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+      .cuidadosSection4 .card .cardText .card-title {
+        color: grey;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Montserrat';
+        font-weight: 400; }
+      .cuidadosSection4 .card .cardText .btnCard4 {
+        margin-top: 0.5rem;
+        background-color: lightgrey; }
+
+.cuidadosFooter {
+  background-color: lightgrey;
+  padding: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  grid-area: cuidadosFooter; }
+
+.cuidadosFooter1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.cuidadosFooter1 h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: small;
+  font-style: italic; }
+
+.cuidadosFooter1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.cuidadosFooter1RedesSociales {
+  display: flex;
+  justify-content: space-between; }
+  .cuidadosFooter1RedesSociales .cuidadosFooter1RedesSocialesIg {
+    width: 50px; }
+  .cuidadosFooter1RedesSociales .cuidadosFooter1RedesSocialesYt {
+    width: 50px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+/*
+/////terrarios1
+.terrariosContenedorPadre {
+    margin: auto;
+    padding: 0rem;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: auto 1fr 1fr 12vh;
+    grid-template-areas:
+        "terrariosHeader terrariosHeader terrariosHeader"
+        "terrariosSection1 terrariosSection2 terrariosSection3"
+        "terrariosSection4 terrariosSection5 terrariosSection6"
+        "terrariosFooter terrariosFooter terrariosFooter";
+}
+*/
+.terrariosHeader {
+  background-color: #6a8f6a;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: terrariosHeader; }
+
+.terrariosHeaderLogoImg {
+  width: 100px;
+  position: relative;
+  left: 5px; }
+
+.terrariosHeaderNavMenu ul {
+  list-style-type: none;
+  display: flex; }
+  .terrariosHeaderNavMenu ul .nav-item a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Montserrat'; }
+    .terrariosHeaderNavMenu ul .nav-item a:hover {
+      font-weight: bold;
+      text-decoration: solid; }
+
+/*
+//terrariosSection1
+.terrariosSection1 {
+    background-color: white;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection1;
+
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection2
+.terrariosSection2 {
+    background-color: white;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection2;
+
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection3
+.terrariosSection3 {
+    background-color: white;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection3;
+
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+
+//terrariosSection4
+.terrariosSection4 {
+    background-color: white;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: terrariosSection4;
+
+    .card {
+        width: 30rem;
+        border-width: 1.5px;
+        border-color: lightgray;
+        box-shadow: black 0px 5px 25px 0px;
+
+        .card-img-top {
+            padding: 2rem;
+            border-radius: 5%;
+        }
+
+        .card-body {
+            text-align: center;
+
+            .card-title {
+                font-family: 'Montserrat';
+
+            }
+
+            .card-text {
+                font-family: 'Montserrat';
+            }
+
+            .btn {
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
+*/
+.terrariosFooter {
+  background-color: lightgrey;
+  padding: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 220px;
+  grid-area: terrariosFooter; }
+
+.terrariosFooter1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.terrariosFooter1 h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: small;
+  font-style: italic; }
+
+.terrariosFooter1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.terrariosFooter1RedesSociales {
+  display: flex;
+  justify-content: space-between; }
+  .terrariosFooter1RedesSociales .terrariosFooter1RedesSocialesIg {
+    width: 50px; }
+  .terrariosFooter1RedesSociales .terrariosFooter1RedesSocialesYt {
+    width: 50px; }
 
 * {
   margin: 0;

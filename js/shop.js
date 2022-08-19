@@ -112,6 +112,7 @@ alert('Carrito de compra '+ terrario4.cantidad);
 */
 
 
+/*
 ///// LOGIN - ENTREGA PRIMERA
 let savedContraseña = 'Perlas';
 let ingresar = false;
@@ -267,6 +268,8 @@ if (ingresar) {
     alert('La contraseña no es correcta. Compruébela. ')
 }
 alert('Adios.');
+*/
+
 
 
 /*

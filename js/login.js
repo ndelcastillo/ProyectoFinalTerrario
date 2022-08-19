@@ -84,13 +84,34 @@ btnLogin.addEventListener('click', (e) => {
     e.preventDefault();
     //Validamos que ambos campos estén completos
     if (!mailLogin.value || !passLogin.value) {
-        alert('Todos los campos son requeridos');
-
+        // AGREGAR ALERT
+        Swal.fire(
+            {
+                title: "ERROR",
+                text: "Todos los campos son requeridos",
+                icon: "warning",
+                confirmButtonText: "Reintentar",
+                backdrop: "#b3b3b399",
+                position: 'top',
+                timer: 4000,
+            }
+        )
     } else {
         let data = validarUsuario(usuarios, mailLogin.value, passLogin.value);
         //Revisamos si el return de la función validate es un objeto o un boolean. Si es un objeto, fue una validación exitosa y usamos los datos. Si no, informamos por alert.
         if (!data) {
-            alert(`Usuario y/o contraseña erróneos`);
+            // AGREGAR ALERT
+            Swal.fire(
+                {
+                    title: "ERROR!",
+                    text: "Usuario y/o contraseña incorrectos",
+                    icon: "error",
+                    confirmButtonText: "Reintentar",
+                    backdrop: "#b3b3b399",
+                    position: 'top',
+                    timer: 4000,
+                }
+            )
         } else {
             //Revisamos si elige persistir la info aunque se cierre el navegador o no
             if (recordar.checked) {

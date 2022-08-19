@@ -22,14 +22,31 @@ const mostrarProductos = (productos) => {
         const boton = document.getElementById(`boton${producto.id}`)
         boton.addEventListener('click', () => {
             carritoIndex(producto.id)
-            alert(`Se agrego ${producto.nombre} al carrito`)
-
+            Swal.fire({
+                title: `Se agrego ${producto.nombre} al carrito`,
+                text: `Precio: $${producto.precio}`,
+                icon: 'success',
+                showConfirmButton: false,
+                timer: 3000,
+            })
+            /*
+            Toastify ({
+                text: `Se agrego ${producto.nombre} al carrito`,
+                duration:1500
+                style:{
+                    color: 'lightgrey',
+                    width: '20vw',
+                    height: '5vh',
+                    background: "#a1d5a299",
+                }
+            }).showToast ();
+            */
         })
-
     })
-
 }
 mostrarProductos(productos)
+
+
 
 
 // la funcion mostrarProductos va a tener un parametro (productos) para agarrar los productos del terrarios.js
