@@ -1,0 +1,162 @@
+[
+    {
+        "plant": "suculenta",
+        "espespeciescie": "Aeonium",
+        "subSpecies": "Hierrense",
+        "waveForm": "sinusoidal",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/aeoniumHierrense.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aeonium",
+        "subSpecies": "Palmense",
+        "waveForm": "sinusoidal",
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/aeoniumPalmense.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aeonium",
+        "subSpecies": "Rosa Negra",
+        "waveForm": "pulso",
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/aeoniumRosaNegra.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Sedum",
+        "subSpecies": "Clavatum",
+        "waveForm": "pulso",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/sedumClavatum.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Sedum",
+        "subSpecies": "Morganianum",
+        "waveForm": "sinusoidal",
+        "filotaxis": "imbricada",
+        "image": "../images/plantas/sedumMorganianum.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Haworthia",
+        "subSpecies": "Turgida",
+        "waveForm": "triangular",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/haworthiaTurgida.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Haworthia",
+        "subSpecies": "Coarctata",
+        "waveForm": "triangular",
+        "filotaxis": "Imbricada",
+        "image": "../images/plantas/haworthiaCoarctata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Haworthia",
+        "subSpecies": "Cuspidata",
+        "waveForm": "triangular",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/haworthiaCuspidata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Haworthia",
+        "subSpecies": "Cymbiformis",
+        "waveForm": "triangular",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/haworthiaCymbiformis.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Portulacaria",
+        "subSpecies": "Afra Variegata",
+        "waveForm": "sinusoidal",
+        "filotaxis": "decusada",
+        "image": "../images/plantas/portulacariaAfraVariegata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Echeveria",
+        "subSpecies": "Affinis",
+        "waveForm": "triangular",
+        "filotaxis": "helicoidal",
+        "image": "../images/terrarios/indexTerrarios10.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Echeveria",
+        "subSpecies": "Amoena",
+        "waveForm": "diente de sierra",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/echeveriaAmoena.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Echeveria",
+        "subSpecies": "Elegans",
+        "waveForm": "pulso",
+        "filotaxis": "imbricada",
+        "image": "../images/plantas/echeveriaElegans.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Echeveria",
+        "subSpecies": "Setosa",
+        "waveForm": "pulso",
+        "filotaxis": "decusada",
+        "image": "../images/plantas/echeveriaSetosa.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aloe Vera",
+        "subSpecies": "Arborescens",
+        "waveForm": "diente de sierra",
+        "filotaxis": "imbricada",
+        "image": "../images/plantas/aloeVeraArborescens.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aloe Vera",
+        "subSpecies": "Aristata",
+        "waveForm": "triangular",
+        "filotaxis": "imbricada",
+        "image": "../images/plantas/aloeVeraAristata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aloe Vera",
+        "subSpecies": "Variegata",
+        "waveForm": "triangular",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/aloeVeraVariegata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Aloe Vera",
+        "subSpecies": "Juvenna",
+        "waveForm": "diente de sierra",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/aloeVeraJuvenna.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Cotyledon",
+        "subSpecies": "Tomentosa",
+        "waveForm": "cuadrada",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/cotyledonTomentosa.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Cotyledon",
+        "subSpecies": "Orbiculata",
+        "waveForm": "pulso",
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/cotyledonOrbiculata.png"
+    }   
+]

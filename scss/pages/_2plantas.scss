@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Body
+body {
+    background-color: white;
+}
+
+//plantasHeader
+.plantasHeader {
+    background-color: rgb(106, 143, 106);
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: cuidadosHeader;
+}
+
+.plantasHeaderLogoImg {
+    width: 100px;
+    position: relative;
+    left: 5px;
+}
+
+.plantasHeaderNavMenu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        margin-right: 2rem;
+        padding: 1rem;
+        font-size: large;
+        font-family: 'Montserrat';
+
+
+        &:hover {
+            font-weight: bold;
+            text-decoration: solid;
+        }
+    }
+}
+
+
+
+// Card
+.col {
+    width: 27rem;
+    border-width: 1.5px;
+    border-color: lightgray;
+    box-shadow: grey 0px 0px 10px 0px;
+    text-align: center;
+
+
+    .card-img-top {
+        padding: 20px 20px 0px 20px;
+        border-radius: 0%;
+    }
+
+    .card-body {
+        background-color: whitesmoke;
+        padding: 0px 20px 20px 20px;
+        margin: 0px 20px 20px 20px;
+        width: 388px;
+
+
+
+        .card-title {
+            text-align: left;
+            padding: 40px 0px 10px 40px;
+            font-family: 'Montserrat';
+            font-weight: 300;
+            font-size: x-large;
+
+        }
+
+        .card-text {
+
+
+            .card-text-tipo {
+                text-align: left;
+                padding: 20px 0px 6px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+            .card-text-plantas {
+                text-align: left;
+                padding: 0px 0px 6px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+            .card-text-precio {
+                text-align: left;
+                padding: 0px 0px 40px 40px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+                text-align: left;
+
+            }
+
+        }
+
+        .btn-card {
+            text-align: left;
+            padding: 0px 0px 20px 40px;
+
+            .btn {
+                background-color: lightgray;
+                color: black;
+                font-family: 'Montserrat';
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+
+//plantasFooter
+.plantasFooter {
+    background-color: lightgrey;
+    padding: 2rem;
+    margin-top: 54rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: cuidadosFooter;
+}
+
+.plantasFooter1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.plantasFooter1 h2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: small;
+    font-style: italic;
+
+}
+
+.plantasFooter1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plantasFooter1RedesSociales {
+    display: flex;
+    justify-content: space-between;
+
+    .plantasFooter1RedesSocialesIg {
+        width: 50px;
+    }
+
+    .plantasFooter1RedesSocialesYt {
+        width: 50px;
+    }
+}

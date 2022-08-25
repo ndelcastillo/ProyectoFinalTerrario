@@ -58,6 +58,18 @@ body {
   align-items: center;
   grid-area: indexHeader; }
 
+.indexHeaderLogo {
+  display: flex; }
+  .indexHeaderLogo a {
+    align-self: center; }
+    .indexHeaderLogo a button {
+      margin-left: 5rem;
+      width: 100px;
+      height: 70px; }
+      .indexHeaderLogo a button h1 {
+        padding: 1rem;
+        font-size: x-large; }
+
 .indexHeaderLogoImg {
   width: 100px;
   position: relative;
@@ -77,6 +89,18 @@ body {
     .indexHeaderNavMenu ul .nav-item a:hover {
       font-weight: bold;
       text-decoration: solid; }
+
+.fotoNew1 {
+  display: none;
+  width: 500px;
+  height: 1000px; }
+
+.fotoNew12 {
+  width: 1500px;
+  height: 1000px; }
+
+.visible {
+  display: block; }
 
 .indexSection0 {
   background-color: lightgray;
@@ -1167,6 +1191,123 @@ body {
 body {
   background-color: white; }
 
+.plantasHeader {
+  background-color: #6a8f6a;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: cuidadosHeader; }
+
+.plantasHeaderLogoImg {
+  width: 100px;
+  position: relative;
+  left: 5px; }
+
+.plantasHeaderNavMenu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center; }
+  .plantasHeaderNavMenu ul .nav-item a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: 'Montserrat'; }
+    .plantasHeaderNavMenu ul .nav-item a:hover {
+      font-weight: bold;
+      text-decoration: solid; }
+
+.col {
+  width: 27rem;
+  border-width: 1.5px;
+  border-color: lightgray;
+  box-shadow: grey 0px 0px 10px 0px;
+  text-align: center; }
+  .col .card-img-top {
+    padding: 20px 20px 0px 20px;
+    border-radius: 0%; }
+  .col .card-body {
+    background-color: whitesmoke;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    width: 388px; }
+    .col .card-body .card-title {
+      text-align: left;
+      padding: 40px 0px 10px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      font-size: x-large; }
+    .col .card-body .card-text .card-text-tipo {
+      text-align: left;
+      padding: 20px 0px 6px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .col .card-body .card-text .card-text-plantas {
+      text-align: left;
+      padding: 0px 0px 6px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .col .card-body .card-text .card-text-precio {
+      text-align: left;
+      padding: 0px 0px 40px 40px;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      text-align: left; }
+    .col .card-body .btn-card {
+      text-align: left;
+      padding: 0px 0px 20px 40px; }
+      .col .card-body .btn-card .btn {
+        background-color: lightgray;
+        color: black;
+        font-family: 'Montserrat';
+        font-weight: 500; }
+
+.plantasFooter {
+  background-color: lightgrey;
+  padding: 2rem;
+  margin-top: 54rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  grid-area: cuidadosFooter; }
+
+.plantasFooter1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+.plantasFooter1 h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: small;
+  font-style: italic; }
+
+.plantasFooter1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.plantasFooter1RedesSociales {
+  display: flex;
+  justify-content: space-between; }
+  .plantasFooter1RedesSociales .plantasFooter1RedesSocialesIg {
+    width: 50px; }
+  .plantasFooter1RedesSociales .plantasFooter1RedesSocialesYt {
+    width: 50px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
 .cuidadosContenedorPadre {
   margin: auto;
   padding: 0rem;
@@ -1394,33 +1535,42 @@ body {
         "terrariosFooter terrariosFooter terrariosFooter";
 }
 */
+/*
+//terrariosHeader
 .terrariosHeader {
-  background-color: #6a8f6a;
-  padding: 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  grid-area: terrariosHeader; }
+    background-color: rgb(106, 143, 106);
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: terrariosHeader;
+}
 
 .terrariosHeaderLogoImg {
-  width: 100px;
-  position: relative;
-  left: 5px; }
+    width: 100px;
+    position: relative;
+    left: 5px;
+}
 
 .terrariosHeaderNavMenu ul {
-  list-style-type: none;
-  display: flex; }
-  .terrariosHeaderNavMenu ul .nav-item a {
-    color: white;
-    text-decoration: none;
-    margin-right: 2rem;
-    padding: 1rem;
-    font-size: large;
-    font-family: 'Montserrat'; }
-    .terrariosHeaderNavMenu ul .nav-item a:hover {
-      font-weight: bold;
-      text-decoration: solid; }
+    list-style-type: none;
+    display: flex;
 
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        margin-right: 2rem;
+        padding: 1rem;
+        font-size: large;
+        font-family: 'Montserrat';
+
+        &:hover {
+            font-weight: bold;
+            text-decoration: solid;
+        }
+    }
+}
+*/
 /*
 //terrariosSection1
 .terrariosSection1 {
@@ -1579,41 +1729,65 @@ body {
     }
 }
 */
+/*
+//terrariosFooter
 .terrariosFooter {
-  background-color: lightgrey;
-  padding: 2rem;
-  margin-top: 2rem;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 220px;
-  grid-area: terrariosFooter; }
+    background-color: lightgrey;
+    padding: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 220px;
+    grid-area: terrariosFooter;
+}
 
 .terrariosFooter1 {
-  display: flex;
-  justify-content: center;
-  margin-right: 1rem;
-  margin-left: 1rem; }
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 
 .terrariosFooter1 h2 {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: small;
-  font-style: italic; }
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: small;
+    font-style: italic;
+
+}
 
 .terrariosFooter1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .terrariosFooter1RedesSociales {
-  display: flex;
-  justify-content: space-between; }
-  .terrariosFooter1RedesSociales .terrariosFooter1RedesSocialesIg {
-    width: 50px; }
-  .terrariosFooter1RedesSociales .terrariosFooter1RedesSocialesYt {
-    width: 50px; }
+    display: flex;
+    justify-content: space-between;
+
+    .terrariosFooter1RedesSocialesIg {
+        width: 50px;
+    }
+
+    .terrariosFooter1RedesSocialesYt {
+        width: 50px;
+    }
+}
+*/
+.fotoNew1 {
+  display: none;
+  width: 500px;
+  height: 1000px; }
+
+.fotoNew12 {
+  width: 1500px;
+  height: 1000px; }
+
+.visible {
+  display: block; }
 
 * {
   margin: 0;

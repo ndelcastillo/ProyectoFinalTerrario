@@ -1,3 +1,4 @@
+//const mostrarProductos = await fetch ('./js/catalogo.json') => {
 const mostrarProductos = (productos) => {
     const contenedorProductos = document.getElementById('producto-contenedor')
     productos.forEach(producto => {
@@ -46,8 +47,11 @@ const mostrarProductos = (productos) => {
 }
 mostrarProductos(productos)
 
-
-
+async function bringData () {
+    const response = await fetch ('./js/catalogo.json');
+    const data = await response.json ();
+    mostrarProductos (data);
+}
 
 // la funcion mostrarProductos va a tener un parametro (productos) para agarrar los productos del terrarios.js
 // cuando quiero pasarlo a HTML lo tengo que vinuclar con document.getElementById para plasmar el JS en el contenedor que arme en el HTML ('producto-contenedor')

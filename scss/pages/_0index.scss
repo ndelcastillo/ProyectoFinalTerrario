@@ -40,6 +40,25 @@ body {
     grid-area: indexHeader;
 }
 
+.indexHeaderLogo {
+    display: flex;
+
+    a {
+        align-self: center;
+
+        button {
+            margin-left: 5rem;
+            width: 100px;
+            height: 70px;
+
+            h1 {
+                padding: 1rem;
+                font-size: x-large;
+            }
+        }
+    }
+}
+
 .indexHeaderLogoImg {
     width: 100px;
     position: relative;
@@ -50,7 +69,7 @@ body {
     list-style-type: none;
     display: flex;
     align-items: center;
-    
+
 
     .nav-item a {
         color: white;
@@ -67,6 +86,20 @@ body {
     }
 }
 
+.fotoNew1 {
+    display: none;
+    width: 500px;
+    height: 1000px;
+}
+
+.fotoNew12 {
+    width: 1500px;
+    height: 1000px;
+}
+
+.visible {
+    display: block;
+}
 
 
 //mainIndexSection0

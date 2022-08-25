@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/def177904b.js" crossorigin="anonymous"></script>
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    <title>ENTE</title>
+</head>
+
+<body>
+    <header class="plantasHeader">
+        <article class="plantasHeaderLogo">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo/logoEnte3.png"
+                    class="plantasHeaderLogoImg" alt="logo"></a>
+        </article>
+        <article class="plantasHeaderNav">
+            <nav class="plantasHeaderNavMenu">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./terrarios.html">Terrarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./plantas.html">Plantas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cuidados.html">Cuidados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./login.html">
+                            <button class="nav-link text-body" href="./login.html">
+                                <i class="fa-solid fa-user"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link text-body" id="open" href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span id="contador-carrito">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+
+    <div class="container-fluid">
+        <main class="container">
+            <div class="seleccion">
+                <select id="onda">
+                    <option value="">Elige una forma de onda</option>
+                    <option value="sinusoidal">Sinusoidal</option>
+                    <option value="triangular">Triangular</option>
+                    <option value="diente de sierra">Diente de Sierra</option>
+                    <option value="cuadrada">Cuadrada</option>
+                    <option value="pulso">Pulso</option>
+                    <option value="asimetrica">Asimétrica</option>
+                    <option value="ruido blanco">Ruido Blanco</option>
+                </select>
+                <button id="buscar">Buscar</button>
+                <button id="search">Search</button>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="contenedorTarjetas">
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="cardContainer">
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="plantasFooter">
+        <article class="plantasFooter1">
+            <h2>Copyright 2022®</h2>
+            <div class="plantasFooter1RedesSociales">
+                <a href="https://www.instagram.com/sequence.arg/" target="_blank"><img
+                        class="plantasFooter1RedesSocialesIg" src="../images/iconosRedesSociales/icono-ig-black.png"
+                        alt="imgLogoInstagram"></a>
+                <a href="https://www.youtube.com/channel/UCZFh7WynMEYRH-nY2fPMnWA/videos" target="_blank"><img
+                        class="plantasFooter1RedesSocialesYt" src="../images/iconosRedesSociales/icono-yt-black.png"
+                        alt="imgLogoYouTube"></a>
+            </div>
+            <h2>hola@ente.com</h2>
+        </article>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Luxon -->
+
+    <!-- Scripts (el ultimo script siempre debe ser el nuestro) -->
+    <script src="../js/fetch.js"></script>
+
+
+</body>
+
+</html>

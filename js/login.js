@@ -104,7 +104,7 @@ btnLogin.addEventListener('click', (e) => {
             Swal.fire(
                 {
                     title: "ERROR!",
-                    text: "Usuario y/o contraseña incorrectos",
+                    text: "Usuario y/o contraseña incorrectos,",
                     icon: "error",
                     confirmButtonText: "Reintentar",
                     backdrop: "#b3b3b399",
@@ -149,3 +149,14 @@ function estaLogueado(usuario) {
 }
 
 estaLogueado(recuperarUsuario(localStorage));
+
+/*
+// Cerrar sesion
+setTimeout (() => {
+    cerrarSesion ()
+}, 100000)
+
+setInterval (() => {
+    renovarToken ()
+}, 30000)
+*/
