@@ -160,3 +160,13 @@ setInterval (() => {
     renovarToken ()
 }, 30000)
 */
+
+
+/*
+// EJEMPLO para crear un usuario (signUp)
+let nombrePersonaje = prompt('Ingrea el nombre de tu personaje');
+let apellidoPersonaje = prompt('Ingresa el apellido de tu personaje');
+let edadPersonaje = prompt('Ingresa la edad de tu personaje');
+const personajeUsuario = new Personaje(nombrePersonaje, apellidoPersonaje, edadPersonaje);
+console.log(personajeUsuario)
+*/

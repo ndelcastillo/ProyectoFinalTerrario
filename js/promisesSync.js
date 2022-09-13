@@ -31,19 +31,6 @@ setTimeout(() => {
 }, tiempo)
 
 
-/*
-btn.onclick = () => {
-    foto.classList.add('visible');
-}
-
-
-setTimeout(() => {
-    foto.classList.remove('visible')
-}, tiempo);
-*/
-
-
-
 /*    
 //function setInterval:
 setInterval(() => {

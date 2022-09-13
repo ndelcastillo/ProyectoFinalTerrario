@@ -47,12 +47,6 @@ const mostrarProductos = (productos) => {
 }
 mostrarProductos(productos)
 
-async function bringData () {
-    const response = await fetch ('./js/catalogo.json');
-    const data = await response.json ();
-    mostrarProductos (data);
-}
-
 // la funcion mostrarProductos va a tener un parametro (productos) para agarrar los productos del terrarios.js
 // cuando quiero pasarlo a HTML lo tengo que vinuclar con document.getElementById para plasmar el JS en el contenedor que arme en el HTML ('producto-contenedor')
 // tomamos nuestros productos de terrarios.js y aplicamos un forEach para tomar el archivo array y hacer un recorrido por cada uno de los objetos. Recorre el array y por cada itegrador nos devuelve algo. Nos devuelve el renderizado dentro del HTML. Por cada producto nos devuelve un renderizado, a ese renderizado le vamos a pasar una variable div que va a estar creando un elemento dentro del contenedor del HTML. RENDERIADO de FOREACH

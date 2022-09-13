@@ -13,7 +13,7 @@
     <!-- Toastify -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="../css/main.css">
-    <title>ENTE</title>
+    <title>FILOTAXIA</title>
 </head>
 
 <body>
@@ -55,18 +55,27 @@
                 </nav>
             </article>
         </header>
-
+        <main class="terrariosSection0">
+            <div class="terrariosSection0Titulo">
+                <h1>TERRARIOS</h1>
+            </div>
+        </main>
         <main id="producto-contenedor">
             <div class="modal-container" id="modal_container">
                 <div class="modal-carrito">
-                    <h3 class="modal-carrito-title">Carrito de terrarios</h3>
+                    <h3 class="modal-carrito-title">Carrito de Compras</h3>
                     <div id="carrito-contenedor"></div>
-                    <div class="modal-carrito-cerrar">
-                        <button id="cerrar">Cerrar</button>
+                    <div id="carrito-contenedor-total"></div>
+                    <div class="modal-carrito-comprarAhora">
+                        <a href="../pages/carritoCompras.html">
+                            <button id="comprarAhora">Comprar Ahora</button>
+                        </a>
+                        <div class="modal-carrito-cerrar">
+                            <button id="cerrar">Cerrar</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--
+                <!--
             <div class="container d-flex justify-content-center p-5">
                 <button class="btn btn-info btn-lg" id="botonComprar">Comprar</button>
             </div> 
@@ -77,14 +86,14 @@
             <article class="terrariosFooter1">
                 <h2>Copyright 2022®</h2>
                 <div class="terrariosFooter1RedesSociales">
-                    <a href="https://www.instagram.com/sequence.arg/" target="_blank"><img
+                    <a href="https://www.instagram.com/filotaxiasagrada/" target="_blank"><img
                             class="terrariosFooter1RedesSocialesIg"
                             src="../images/iconosRedesSociales/icono-ig-black.png" alt="imgLogoInstagram"></a>
-                    <a href="https://www.youtube.com/channel/UCZFh7WynMEYRH-nY2fPMnWA/videos" target="_blank"><img
+                    <a href="https://www.youtube.com/watch?v=l0vrsO3_HpU&t=1003s" target="_blank"><img
                             class="terrariosFooter1RedesSocialesYt"
                             src="../images/iconosRedesSociales/icono-yt-black.png" alt="imgLogoYouTube"></a>
                 </div>
-                <h2>hola@ente.com</h2>
+                <h2>hola@filotaxia.com</h2>
             </article>
         </footer>
     </div>
@@ -101,6 +110,7 @@
 
     <!-- Scripts (el ultimo script siempre debe ser el nuestro) -->
     <script src="../js/terrarios.js"></script>
+    <script src="../js/carritoTotal.js"></script>
     <script src="../js/carritoIndex.js"></script>
     <script src="../js/modal.js"></script>
     <script src="../js/terrariosProductos.js"></script>

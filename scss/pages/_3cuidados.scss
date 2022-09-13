@@ -9,11 +9,10 @@ body {
     background-color: white;
 }
 
-
 /////cuidados
 .cuidadosContenedorPadre {
     margin: auto;
-    padding: 0rem;
+    padding: 2rem 2rem 0rem 2rem;
     width: 100%;
     height: 100vh;
     display: grid;
@@ -26,7 +25,6 @@ body {
         "cuidadosSection3 cuidadosSection4"
         "cuidadosFooter cuidadosFooter";
 }
-
 
 //cuidadosHeader
 .cuidadosHeader {
@@ -76,7 +74,7 @@ body {
     .cuidadosSection0Titulo {
         padding: 3rem;
         padding-bottom: 0rem;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
         border: 10px;
 
         h1 {
@@ -95,7 +93,7 @@ body {
 .cuidadosSection1 {
     background-color: white;
     margin: 3rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +134,7 @@ body {
 .cuidadosSection2 {
     background-color: white;
     margin: 3rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;

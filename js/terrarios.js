@@ -4,7 +4,7 @@ const productos = [
         nombre: "Arwen",
         tipo: "abierto",
         plantas: "suculentas",
-        precio: "4000",
+        precio: 4000,
         img: '../images/terrarios/indexTerrarios1.png',
         cantidad: 1
     },
@@ -13,7 +13,7 @@ const productos = [
         nombre: "Maggot",
         tipo: "abierto",
         plantas: "suculentas",
-        precio: "4500",
+        precio: 4500,
         img: '../images/terrarios/indexTerrarios4.png',
         cantidad: 1
     },
@@ -22,7 +22,7 @@ const productos = [
         nombre: "Sombraverde",
         tipo: "abierto",
         plantas: "cactus",
-        precio: "5000",
+        precio: 5000,
         img: '../images/terrarios/indexTerrarios10.png',
         cantidad: 1
     },
@@ -31,7 +31,7 @@ const productos = [
         nombre: "Sindarin",
         tipo: "abierto",
         plantas: "cactus",
-        precio: "6000",
+        precio: 6000,
         img: '../images/terrarios/indexTerrarios11.png',
         cantidad: 1
     },

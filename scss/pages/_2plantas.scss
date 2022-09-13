@@ -9,14 +9,31 @@ body {
     background-color: white;
 }
 
+/////plantas
+.plantasContenedorPadre {
+    margin: auto;
+    padding: 2rem 2rem 0rem 2rem;
+    /*
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: auto 1fr 1fr 12vh;
+    grid-template-areas:
+        "terrariosHeader terrariosHeader terrariosHeader"
+        "terrariosSection1 terrariosSection2 terrariosSection3"
+        "terrariosSection4 terrariosSection5 terrariosSection6"
+        "terrariosFooter terrariosFooter terrariosFooter";
+        */
+}
+
+
+
 //plantasHeader
 .plantasHeader {
     background-color: rgb(106, 143, 106);
     padding: 1.2rem;
+    margin-bottom: 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    grid-area: cuidadosHeader;
 }
 
 .plantasHeaderLogoImg {
@@ -46,80 +63,135 @@ body {
     }
 }
 
+//plantasSection0
+.plantasSection0 {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .plantasSection0Titulo {
+        padding: 3rem;
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        border: 10px;
+
+        h1 {
+            color: rgb(106, 143, 106);
+            text-align: center;
+            font-size: 5rem;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            letter-spacing: 0.5rem;
+        }
+    }
+}
+
+//plantasMain
+.container-fluid {
+    margin-top: 4rem;
+}
+
+.seleccion {
+    display: flex;
+    width: 81rem;
+    height: 7rem;
+    border-width: 1.5px;
+    border-color: lightgray;
+    box-shadow: grey 0px 0px 10px 0px;
+    background-color: whitesmoke;
+    text-align: left;
+    margin: 0rem 0rem 3rem 0rem;
+
+
+    .btnOpciones {
+        padding: 1rem;
+        align-self: center;
+        margin-left: 3rem;
+        font-family: 'Montserrat';
+
+        /*
+        .btnOpcionesElige {
+            font-family: 'Montserrat';
+            font-weight: 200;
+        }
+        */
+    }
+
+    .btnSearch {
+        width: 4rem;
+        height: 2rem;
+        padding: 2px;
+        margin-left: 1.5rem;
+        align-self: center;
+        font-family: 'Montserrat';
+    }
+
+    .seleccionTexto {
+        margin-top: 0.8rem;
+        margin-left: 8rem;
+        margin-right: 0rem;
+        align-self: center;
+
+        h5 {
+            font-family: 'Montserrat';
+            font-weight: 300;
+            font-size: 15px;
+            font-style: italic;
+            letter-spacing: 4px;
+            text-align: justify;
+        }
+    }
+
+}
+
 
 
 // Card
 .col {
-    width: 27rem;
+    width: 20rem;
     border-width: 1.5px;
     border-color: lightgray;
-    box-shadow: grey 0px 0px 10px 0px;
     text-align: center;
+    margin: 3rem 7rem 0rem 0rem;
 
+    .colClass {
+        width: 27rem;
+        height: 30rem;
 
-    .card-img-top {
-        padding: 20px 20px 0px 20px;
-        border-radius: 0%;
-    }
-
-    .card-body {
-        background-color: whitesmoke;
-        padding: 0px 20px 20px 20px;
-        margin: 0px 20px 20px 20px;
-        width: 388px;
-
-
-
-        .card-title {
-            text-align: left;
-            padding: 40px 0px 10px 40px;
-            font-family: 'Montserrat';
-            font-weight: 300;
-            font-size: x-large;
-
+        .card-img-top {
+            padding: 20px 20px 0px 20px;
+            border-radius: 0%;
         }
 
-        .card-text {
+        .card-body {
+            background-color: whitesmoke;
+            padding: 0px 20px 20px 20px;
+            margin: 0px 20px 20px 20px;
+            width: 388px;
 
 
-            .card-text-tipo {
+
+            .card-title {
                 text-align: left;
-                padding: 20px 0px 6px 40px;
+                padding: 40px 0px 10px 10px;
                 font-family: 'Montserrat';
                 font-weight: 300;
-                text-align: left;
+                font-size: x-large;
 
             }
 
-            .card-text-plantas {
-                text-align: left;
-                padding: 0px 0px 6px 40px;
-                font-family: 'Montserrat';
-                font-weight: 300;
-                text-align: left;
+            .card-list {
+                list-style-type: disc;
 
-            }
+                .card-text {
+                    text-align: left;
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    padding: 0px 0px 0px 0px;
 
-            .card-text-precio {
-                text-align: left;
-                padding: 0px 0px 40px 40px;
-                font-family: 'Montserrat';
-                font-weight: 300;
-                text-align: left;
+                }
 
-            }
-
-        }
-
-        .btn-card {
-            text-align: left;
-            padding: 0px 0px 20px 40px;
-
-            .btn {
-                background-color: lightgray;
-                color: black;
-                font-family: 'Montserrat';
-                font-weight: 500;
             }
         }
     }
@@ -131,7 +203,7 @@ body {
 .plantasFooter {
     background-color: lightgrey;
     padding: 2rem;
-    margin-top: 54rem;
+    margin-top: 5rem;
     justify-content: center;
     display: flex;
     flex-direction: column;

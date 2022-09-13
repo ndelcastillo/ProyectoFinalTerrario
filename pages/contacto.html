@@ -6,34 +6,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/def177904b.js" crossorigin="anonymous"></script>
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/main.css">
-    <title>ENTE</title>
+    <title>FILOTAXIA</title>
 </head>
 
 <body>
-    <header>
-    </header>
+    <div class="contactoContenedorPadre">
+        <header class="contactoHeader">
+            <article class="contactoHeaderLogo">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo/logoEnte3.png"
+                        class="contactoHeaderLogoImg" alt="logo"></a>
+            </article>
+            <article class="contactoHeaderNav">
+                <nav class="contactoHeaderNavMenu">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./terrarios.html">Terrarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./plantas.html">Plantas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cuidados.html">Cuidados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./login.html">
+                                <button class="nav-link text-body" href="./login.html">
+                                    <i class="fa-solid fa-user"></i>
+                                </button>
+                            </a>
+                        </li>
+                        <!--
+                        <li class="nav-item">
+                            <button class="nav-link text-body" id="open" href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span id="contador-carrito">0</span>
+                            </button>
+                        </li>
+                        -->
+                    </ul>
+                </nav>
+            </article>
+        </header>
 
-    <main>
-        <button id="navHola" class="navHola" href="">
-            <h1>HOLA</h1>
-        </button>
-        <div class="fotoNew1">
-            <img src="../images/cuidados/cuidadoAlimento1.jpg" class="fotoNew12" alt="">
-        </div>
-    </main>
+        <main class="container">
+            <main class="contactoSection0">
+                <div class="contactoSection0Titulo">
+                    <h1>CONTACTO</h1>
+                </div>
+            </main>
+            <div class="row_contacto">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-12 p-3 bg-grey row_contacto_ustedes">
+                        <h1 class="ustedes">Esperamos tu consulta</h1>
+                    </div><br><br><br>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-12 p-3 row_contacto_ustedes_formulario">
+                        <form action="" class="row_contacto_ustedes_formulario1">
+                            <div class="row_contacto_ustedes_formulario1_data1">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" placeholder="  Marcos Florio">
+                            </div><br>
+                            <div class="row_contacto_ustedes_formulario1_data2">
+                                <label for="e-mail">E-mail</label>
+                                <input type="email" name="email" required placeholder="  marcosflorio@gmail.com">
+                            </div><br>
+                            <div class="row_contacto_ustedes_formulario1_data3">
+                                <label for="telefono">Teléfono</label>
+                                <input type="text" name="telefono" placeholder="  +54 911 4198-6575">
+                            </div>
+                            <div class="row_contacto_ustedes_formulario1_data4">
+                                <label for="comentarios"></label><br>
+                                <textarea name="" id="" cols="102" rows="10" placeholder="  Mensaje"></textarea><br>
+                            </div><br>
+                            <div class="row_contacto_ustedes_formulario1_data5">
+                                <input type="submit" value="ENVIAR">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-    <footer>
-    </footer>
+        <footer class="contactoFooter">
+            <article class="contactoFooter1">
+                <h2>Copyright 2022®</h2>
+                <div class="contactoFooter1RedesSociales">
+                    <a href="https://www.instagram.com/filotaxiasagrada/" target="_blank"><img
+                            class="contactoFooter1RedesSocialesIg"
+                            src="../images/iconosRedesSociales/icono-ig-black.png" alt="imgLogoInstagram"></a>
+                    <a href="https://www.youtube.com/watch?v=l0vrsO3_HpU&t=1003s" target="_blank"><img
+                            class="contactoFooter1RedesSocialesYt"
+                            src="../images/iconosRedesSociales/icono-yt-black.png" alt="imgLogoYouTube"></a>
+                </div>
+                <h2>hola@filotaxia.com</h2>
+            </article>
+        </footer>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Luxon -->
 
     <!-- Scripts (el ultimo script siempre debe ser el nuestro) -->
-    <script src="../js/promisesSync.js"></script>
-
+    <script src="../js/promisesSync1.js"></script>
 
 </body>
 

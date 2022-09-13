@@ -1,7 +1,7 @@
 [
     {
         "plant": "suculenta",
-        "espespeciescie": "Aeonium",
+        "species": "Aeonium",
         "subSpecies": "Hierrense",
         "waveForm": "sinusoidal",
         "filotaxis": "helicoidal",
@@ -19,25 +19,17 @@
         "plant": "suculenta",
         "species": "Aeonium",
         "subSpecies": "Rosa Negra",
-        "waveForm": "pulso",
+        "waveForm": "sinusoidal",
         "filotaxis": "verticilada",
         "image": "../images/plantas/aeoniumRosaNegra.png"
     },
     {
         "plant": "suculenta",
-        "species": "Sedum",
-        "subSpecies": "Clavatum",
-        "waveForm": "pulso",
-        "filotaxis": "helicoidal",
-        "image": "../images/plantas/sedumClavatum.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Sedum",
-        "subSpecies": "Morganianum",
+        "species": "Aeonium",
+        "subSpecies": "Kiwi",
         "waveForm": "sinusoidal",
-        "filotaxis": "imbricada",
-        "image": "../images/plantas/sedumMorganianum.png"
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/aeoniumKiwi.png"
     },
     {
         "plant": "suculenta",
@@ -58,10 +50,10 @@
     {
         "plant": "suculenta",
         "species": "Haworthia",
-        "subSpecies": "Cuspidata",
+        "subSpecies": "Attenuata",
         "waveForm": "triangular",
         "filotaxis": "helicoidal",
-        "image": "../images/plantas/haworthiaCuspidata.png"
+        "image": "../images/plantas/haworthiaAttenuata.png"
     },
     {
         "plant": "suculenta",
@@ -73,57 +65,9 @@
     },
     {
         "plant": "suculenta",
-        "species": "Portulacaria",
-        "subSpecies": "Afra Variegata",
-        "waveForm": "sinusoidal",
-        "filotaxis": "decusada",
-        "image": "../images/plantas/portulacariaAfraVariegata.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Echeveria",
-        "subSpecies": "Affinis",
-        "waveForm": "triangular",
-        "filotaxis": "helicoidal",
-        "image": "../images/terrarios/indexTerrarios10.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Echeveria",
-        "subSpecies": "Amoena",
-        "waveForm": "diente de sierra",
-        "filotaxis": "helicoidal",
-        "image": "../images/plantas/echeveriaAmoena.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Echeveria",
-        "subSpecies": "Elegans",
-        "waveForm": "pulso",
-        "filotaxis": "imbricada",
-        "image": "../images/plantas/echeveriaElegans.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Echeveria",
-        "subSpecies": "Setosa",
-        "waveForm": "pulso",
-        "filotaxis": "decusada",
-        "image": "../images/plantas/echeveriaSetosa.png"
-    },
-    {
-        "plant": "suculenta",
-        "species": "Aloe Vera",
-        "subSpecies": "Arborescens",
-        "waveForm": "diente de sierra",
-        "filotaxis": "imbricada",
-        "image": "../images/plantas/aloeVeraArborescens.png"
-    },
-    {
-        "plant": "suculenta",
         "species": "Aloe Vera",
         "subSpecies": "Aristata",
-        "waveForm": "triangular",
+        "waveForm": "diente de sierra",
         "filotaxis": "imbricada",
         "image": "../images/plantas/aloeVeraAristata.png"
     },
@@ -131,7 +75,7 @@
         "plant": "suculenta",
         "species": "Aloe Vera",
         "subSpecies": "Variegata",
-        "waveForm": "triangular",
+        "waveForm": "diente de sierra",
         "filotaxis": "helicoidal",
         "image": "../images/plantas/aloeVeraVariegata.png"
     },
@@ -145,6 +89,14 @@
     },
     {
         "plant": "suculenta",
+        "species": "Aloe Vera",
+        "subSpecies": "Saporina",
+        "waveForm": "diente de sierra",
+        "filotaxis": "helicoidal",
+        "image": "../images/plantas/aloeVeraSaporina.png"
+    },
+    {
+        "plant": "suculenta",
         "species": "Cotyledon",
         "subSpecies": "Tomentosa",
         "waveForm": "cuadrada",
@@ -155,8 +107,26 @@
         "plant": "suculenta",
         "species": "Cotyledon",
         "subSpecies": "Orbiculata",
-        "waveForm": "pulso",
+        "waveForm": "cuadrada",
         "filotaxis": "verticilada",
         "image": "../images/plantas/cotyledonOrbiculata.png"
-    }   
+    },
+    {
+        "plant": "suculenta",
+        "species": "Cotyledon",
+        "subSpecies": "Undulata",
+        "waveForm": "cuadrada",
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/cotyledonUndulata.png"
+    },
+    {
+        "plant": "suculenta",
+        "species": "Cotyledon",
+        "subSpecies": "Pendens",
+        "waveForm": "cuadrada",
+        "filotaxis": "verticilada",
+        "image": "../images/plantas/cotyledonPendens.png"
+    }
+    
+   
 ]

@@ -1,4 +1,6 @@
+const preciosProductos = []
 const carritoDeCompras = []
+const precioTotalCarritoDeCompras = []
 
 const carritoIndex = (productoId) => {
     const contenedorCarrito = document.getElementById('carrito-contenedor');
@@ -19,8 +21,10 @@ const carritoIndex = (productoId) => {
         contenedorCarrito.appendChild(div)
     }
     renderProductoCarrito()
-}
 
+    // console.log(contenedorCarrito)
+}
+console.log(carritoDeCompras)
 
 // declarar un array vacio para ir agregando los productos que voy agregando al carrito
 // creo funcion carritoIndex y le paso productoID que va a ser el parametro que voy a usar para hacer un filtro y ver que producto tengo que agregar
@@ -33,3 +37,76 @@ const carritoIndex = (productoId) => {
 // Si existe el producto dentro del carrito que no renderice sino que agregue un cantidad
 // Agrego el nodo hijo al nodo padre
 
+
+/*
+//Sirve para recorrer todo el array carritoDeCompras
+for (let index = 0; index < carritoDeCompras.length; index++) {
+    console.log (carritoDeCompras [i])
+}
+*/
+/*
+// Podria hacer:
+for (const producto.precio in carritoDeCompras)
+*/
+
+
+//.Push : Pushear precios de productos a CarritoDeCompras. Estamos declarando que por cada producto del array productos tenemos que hacer algo. En terrario puedo poner lo que quiera.
+//A)
+for (terrario of carritoDeCompras){
+    preciosProductos.push(terrario.precio)
+}
+console.log(preciosProductos)
+//B)
+for (terrario of productos){
+    preciosProductos.push(terrario.precio)
+}
+console.log(preciosProductos)
+
+// forEach : para ver los precios con iva
+preciosProductos.forEach((elemento) => {
+    elemento = elemento * 1.21;
+    precioTotalCarritoDeCompras.push(elemento)
+})
+console.log(precioTotalCarritoDeCompras)
+
+// .Some : me dice si hay o no
+const ninguno = productos.some ((producto) => producto.nombre == "Sindarin");
+console.log(ninguno)
+
+
+// .Filter : me devuelve todos los elementos que cumplen con una conidicon
+const filtradoPrecio = productos.filter ((producto) => producto.precio < 5000)
+console.log(filtradoPrecio)
+console.log (filtradoPrecio[0].precio)
+
+/*
+// .Filter : filtrar por palabra clave
+let keyword = prompt("Ingresa el termino de busqueda")
+const filtradoBusqueda = productos.filter((curso) => curso.nombre.includes(keyword))
+console.log(filtradoBusqueda)
+console.log (filtradoBusqueda[0].nombre)
+*/
+
+// .Map : 21% IVA
+const preciosConIva = productos.map ((producto) => {
+    return {nombre: producto.nombre, precio: producto.precio*1.21}
+})
+console.log(preciosConIva)
+
+// .Map : 15% OFF
+const preciosConDescuento = productos.map ((producto) => {
+    return {nombre: producto.nombre, precio: producto.precio*.85}
+})
+console.log(preciosConDescuento)
+
+// .Reduce : sirve para calcular el Valor Total de un carrito. ES ESTE METODO
+const totalCarrito = carritoDeCompras.reduce((acumulador,numero) => acumulador + numero,0)
+console.log(totalCarrito)
+
+// .Sort : ordenar de menor a mayor
+const despordenados = productos.sort((a,b) =>a-b);
+console.log(despordenados)
+
+// .Date
+let fechaActual = new Date ()
+console.log (fechaActual)

@@ -1,5 +1,6 @@
 const modalContenedor = document.querySelector('.modal-container')
 const abrirCarrito = document.getElementById('open')
+const comprarAhora = document.getElementById('comprarAhora')
 const cerrarCarrito = document.getElementById('cerrar')
 const modalCarrito = document.querySelector('.modal-carrito')
 
@@ -13,6 +14,10 @@ cerrarCarrito.addEventListener('click', () => {
 
 modalContenedor.addEventListener('click', () => {
     cerrarCarrito.click()
+})
+
+modalContenedor.addEventListener('click', () => {
+    comprarAhora.click()
 })
 
 modalCarrito.addEventListener('click', (e) => {
